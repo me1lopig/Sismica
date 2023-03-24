@@ -1,6 +1,11 @@
-# calculo del coeficiente de amplificación
+# calculo de la aceleración sísmica
 
 # entrada de datos
+
+# numero de unidades
+n_unidades=int(input("Número de unidades ="))
+
+
 
 ab=float(input("Aceleración basica adimensional ab="))
 rho=float(input("Coeficinte de riesgo rho=[ 1 o 1.3]="))
