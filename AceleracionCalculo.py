@@ -34,7 +34,7 @@ producto=ab*rho
 # calculo según los rangos
 if (producto<=0.1):
     S=c/1.25
-elif (0.1<=producto<0.4):
+elif (0.1<producto<=0.4):
     S=c/1.25+3.33*(rho*ab-0.1)*(1-c/1.25)
 elif(0.4<producto):
     S=1.0
