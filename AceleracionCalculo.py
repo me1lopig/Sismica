@@ -23,7 +23,7 @@ if (suma_espesores!=30):
 
 
 ab=float(input("Aceleración basica adimensional ab="))
-rho=float(input("Coeficinte de riesgo rho=[ 1 o 1.3]="))
+rho=float(input("Coeficiente de riesgo rho=[ 1 o 1.3]="))
 c=producto_c/30 # promedio ponderado del coeficiente del terreno
 
 
@@ -38,5 +38,10 @@ elif (0.1<producto<=0.4):
 elif(0.4<producto):
     S=1.0
 
-# IMpresion 
+
+# Impresion 
 print("El valor del coeficiente de amplificacion, S=",S)
+
+# valor de coeficiente de aceleración
+aceleracionCalculo=S*producto
+print ("El valor del coeficiente dela aceleración de cálculo es ac/g={aceleracion} ".format(aceleracion=aceleracionCalculo))
