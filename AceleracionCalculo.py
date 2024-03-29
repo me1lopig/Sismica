@@ -22,7 +22,6 @@ if (suma_espesores!=30):
     exit() # se sale del programa
 
 
-
 ab=float(input("Aceleración basica adimensional ab="))
 rho=float(input("Coeficinte de riesgo rho=[ 1 o 1.3]="))
 c=producto_c/30 # promedio ponderado del coeficiente del terreno
@@ -41,4 +40,3 @@ elif(0.4<producto):
 
 # IMpresion 
 print("El valor del coeficiente de amplificacion, S=",S)
-
