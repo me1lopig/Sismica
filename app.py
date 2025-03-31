@@ -28,7 +28,7 @@ def main():
     # Filtrar por población  
     df_final = df_filtrado[df_filtrado["POBLACION"] == poblacion_seleccionada]  
       
-    st.subheader("Datos Filtrados")  
+    st.subheader("Datos de la Población Seleccionada")  
     st.write("Aceleración Sísmica (ab) y Coeficiente k:", df_final[["ab", "k"]])  
        
   
